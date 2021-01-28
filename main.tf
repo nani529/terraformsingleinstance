@@ -14,6 +14,7 @@ resource "aws_vpc" "default" {
 }
 
 #just adding a line to work on the git fom vscode
+#second line adding
 
 resource "aws_internet_gateway" "default" {
     vpc_id = "${aws_vpc.default.id}"
